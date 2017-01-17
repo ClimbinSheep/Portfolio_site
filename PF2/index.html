@@ -1,0 +1,99 @@
+<link rel="stylesheet" href="pf2.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<div class="head"> <!-- this is going to be the menu bar -->
+    <div class="siteTitle"><h1 id="siteName">Sam Williams</h1> </div>
+    <div class="menueBtn"><a href="#about" id="menBtn">About Me</a></div>
+    <div class="menueBtn"><a href="#Portfolio" id="menBtn">Portfolio</a></div>
+    <div class="menueBtn"><a href="#contact" id="menBtn">Contact Me</a></div>
+</div>
+
+<main>
+    <a class="anchor" name="about" id="aboutAnchor"></a>
+    <div class="about">
+        <h1 class="Title">About Me</h1>
+        
+        <div class="twocols">
+            <div class="aboutText">
+                <h4 class="text-center"> Front end developer and UX/UI designer, with experience in Data analytics, visualisation, machine learning and project management. Always striving to learn and develop. </h4>
+                <hr>
+                <h3 class="text-center" style="padding: 20px 0px 20px 0px;"> Web Developer - UX Designer - Data Scientist</h3>
+            </div>
+            <div class="profpic">
+                <img class="img-circle img-responsive center-block" alt="Sam Williams" src="http://climbingstrengthtraining.com/wp-content/uploads/2017/01/samImg.jpg">
+            </div>
+        </div>
+    </div>
+    
+    <a class="anchor" name="Portfolio"></a>
+    <div class="portfolio">
+        <h1 class="Title">Portfolio</h1>
+        <div class="twocols">
+            <div class="leftcol">
+                <div class="website">
+                    <a href="https://climbinsheep.github.io/Projects/ConnorSite/Connor.html">
+                        <img class="img-responsive webpic" src="http://climbingstrengthtraining.com/wp-content/uploads/2017/01/Capture.png">
+                        <div class="caption text-center">
+                            <p>Profile Site for Connor Byrne</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="website">
+                    <a href="https://climbinsheep.github.io/Projects/JS_Calc/main.html">
+                        <img class="img-responsive webpic" src="http://climbingstrengthtraining.com/wp-content/uploads/2017/01/JS_Calc.png" >
+                        <div class="caption text-center">
+                            <p>Fully functioning calculator built using JavaScript</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="rightcol">
+                <div class="website">
+                    <a href="https://climbinsheep.github.io/Projects/Pomo-Clock/Pomo.html">
+                        <img class="img-responsive webpic" src="http://climbingstrengthtraining.com/wp-content/uploads/2017/01/Pomo.png" >
+                        <div class="caption text-center">
+                            <p>Pomodoro Timer functioning using Javascript</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="website">
+                    <a href="https://climbinsheep.github.io/Projects/PureCSS/PureCSS.html">
+                        <img class="img-responsive webpic" src="http://climbingstrengthtraining.com/wp-content/uploads/2017/01/PureCSS.png" >
+                        <div class="caption text-center">
+                            <p>Portfolio of images styled only with CSS</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <a class="anchor" name="Contact"></a>
+    <div class="contact">
+        <h1 class="Title">Contact Me</h1>
+        <div class="twocols">
+            <div class="contactForm">
+                <form id="myForm">
+                  <div class="form-group">
+                    <input type="name" class="form-control" id="name" placeholder="Name">
+                  </div>
+                  <div class="form-group">
+                    <input type="email" class="form-control" id="email" placeholder="Email">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="message" placeholder="Message">
+                  </div>
+                  <button type="button" id="submitButton">Submit</button>
+                </form>
+            </div>
+            <div class="contactText">
+                <h3> If you want to contact me, please leave me message and I'll respond ASAP. </h3>
+            </div>
+        </div>
+    </div>
+</main>
