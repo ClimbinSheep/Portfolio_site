@@ -40,7 +40,7 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.18), 0 10px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
-#menBtn {
+.menBtn {
     color: black;
 }
 
@@ -81,6 +81,17 @@ main {
     padding: 5% 5% 5% 0%;
 }
 
+@media screen and (max-width: 900px) {
+    .aboutText {
+        width:100%;
+    }
+
+    .profpic {
+        width: 300px;
+        margin: 0 auto;
+    }
+}
+
 .Title {
     width: 100%;
     text-align: center;
@@ -112,6 +123,12 @@ main {
     width:50%;
 }
 
+@media screen and (max-width: 900px) {
+    .leftcol, .rightcol {
+        width:100%;
+    }
+}
+
 .contactForm {
     width: 50%;
     padding: 0 5%;
@@ -123,10 +140,14 @@ main {
 }
 
 @media (max-width: 1150px) {
-    
+
     .contactForm, .contactText {
         width: 100%;
     }
+}
+
+.bot {
+    padding-bottom: 5%;
 }
 
 .formsec {
@@ -136,7 +157,7 @@ main {
 
 input, textarea {
     border: 3px solid var(--a700);
-    
+
     width: 100%;
 }
 

@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <head>
     <title>Sam Williams</title>
     <link rel="stylesheet" href="pf3.css">
@@ -9,9 +10,9 @@
 <main>
     <div class="head"> <!-- this is going to be the menu bar -->
         <div class="siteTitle"><h1 id="siteName">Sam Williams</h1> </div>
-        <div class="menueBtn"><a href="#about" id="menBtn">About Me</a></div>
-        <div class="menueBtn"><a href="#Portfolio" id="menBtn">Portfolio</a></div>
-        <div class="menueBtn"><a href="#contact" id="menBtn">Contact Me</a></div>
+        <div class="menueBtn"><a href="#about" class="menBtn">About Me</a></div>
+        <div class="menueBtn"><a href="#Portfolio" class="menBtn">Portfolio</a></div>
+        <div class="menueBtn"><a href="#contact" class="menBtn">Contact Me</a></div>
     </div>
 
     <div>
@@ -26,7 +27,7 @@
                     <h3 class="text-center" style="padding: 20px 0px 20px 0px;"> Web Developer - UX Designer - Data Scientist</h3>
                 </div>
                 <div class="profpic">
-                    <img class="img-circle img-responsive center-block" alt="Sam Williams" src="http://climbingstrengthtraining.com/wp-content/uploads/2017/01/samImg.jpg">
+                    <img class="img-circle img-responsive" alt="Sam Williams" src="http://climbingstrengthtraining.com/wp-content/uploads/2017/01/samImg.jpg">
                 </div>
             </div>
         </div>
@@ -37,14 +38,13 @@
             <div class="twocols">
                 <div class="leftcol">
                     <div class="website">
-                        <a href="https://samwcoding.github.io/Projects/ConnorSite/Connor.html">
-                            <img class="img-responsive webpic" src="http://climbingstrengthtraining.com/wp-content/uploads/2017/01/Capture.png">
+                        <a href="https://samwcoding.github.io/Projects/wikiviewer/wikiview.html">
+                            <img class="img-responsive webpic" src="http://climbingstrengthtraining.com/wp-content/uploads/2017/02/WikiViewer.png" >
                             <div class="caption text-center">
-                                <p>Profile Site for Connor Byrne</p>
+                                <p>Wikipedia Search site using the Wikipedia API</p>
                             </div>
                         </a>
                     </div>
-
                     <div class="website">
                         <a href="https://samwcoding.github.io/Projects/JS_Calc/main.html">
                             <img class="img-responsive webpic" src="http://climbingstrengthtraining.com/wp-content/uploads/2017/01/JS_Calc.png" >
@@ -53,17 +53,26 @@
                             </div>
                         </a>
                     </div>
-                </div>
-                <div class="rightcol">
                     <div class="website">
-                        <a href="https://samwcoding.github.io/Projects/Pomo-Clock/Pomo.html">
-                            <img class="img-responsive webpic" src="http://climbingstrengthtraining.com/wp-content/uploads/2017/01/Pomo.png" >
+                        <a href="https://samwcoding.github.io/Projects/ConnorSite/Connor.html">
+                            <img class="img-responsive webpic" src="http://climbingstrengthtraining.com/wp-content/uploads/2017/01/Capture.png">
                             <div class="caption text-center">
-                                <p>Pomodoro Timer functioning using Javascript</p>
+                                <p>Profile Site for Connor Byrne</p>
                             </div>
                         </a>
                     </div>
 
+
+                </div>
+                <div class="rightcol">
+                    <div class="website">
+                        <a href="https://samwcoding.github.io/Projects/ChuckNoris/ChuckNoris.html">
+                            <img class="img-responsive webpic" src="http://climbingstrengthtraining.com/wp-content/uploads/2017/02/ChuckNorris.png" >
+                            <div class="caption text-center">
+                                <p>Chuck Norris quote generator with <em>tweet the quote</em> option</p>
+                            </div>
+                        </a>
+                    </div>
                     <div class="website">
                         <a href="https://samwcoding.github.io/Projects/PureCSS/PureCSS.html">
                             <img class="img-responsive webpic" src="http://climbingstrengthtraining.com/wp-content/uploads/2017/01/PureCSS.png" >
@@ -72,8 +81,17 @@
                             </div>
                         </a>
                     </div>
+                    <div class="website">
+                        <a href="https://samwcoding.github.io/Projects/Pomo-Clock/Pomo.html">
+                            <img class="img-responsive webpic" src="http://climbingstrengthtraining.com/wp-content/uploads/2017/01/Pomo.png" >
+                            <div class="caption text-center">
+                                <p>Pomodoro Timer functioning using Javascript</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
+            <h3 class="text-center bot"><a href="https://github.com/SamWCoding/Projects">See all of my project code</a></h3>
         </div>
 
         <a class="anchor" name="Contact"></a>
@@ -83,7 +101,7 @@
                 <div class="contactForm">
                     <form action="https://formspree.io/swilliamseng@gmail.com"
                           method="POST">
-                        
+
                         <div class="contact-dets">
                             <label id="name"><span class="formsec">Your Name</span>
                                 <input type="text" name="name"></label>
@@ -91,17 +109,17 @@
                             <label id="email"><span class="formsec">Your Email Address</span>
                                 <input type="email" name="_replyto"></label>
                         </div>
-                        
+
                         <label><span class="formsec">Message</span>
                             <textarea name="message"></textarea></label>
-                        
+
                         <input type="submit" value="Send">
-                    </form>                            
+                    </form>
                 </div>
                 <div class="contactText">
                     <h3> If you want to contact me, please leave me message and I'll respond as soon as possible. </h3>
                 </div>
-            </div>                
+            </div>
         </div>
     </div>
 
